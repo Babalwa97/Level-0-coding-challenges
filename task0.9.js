@@ -3,5 +3,3 @@ function returnVowels(string) {
     .call(string, (char) => "aeiouAEIOU".includes(char))
     .join("");
 }
-
-console.log(returnVowels("Operator"));
