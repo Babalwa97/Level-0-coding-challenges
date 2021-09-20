@@ -1,4 +1,4 @@
-function commonChars(string1, string2) {
+function commonCharacters(string1, string2) {
   var string1 = "bottle";
   var string2 = "chocolate";
   var common = "";
@@ -22,4 +22,3 @@ function commonChars(string1, string2) {
   console.log("Common letters: ", common);
   return common;
 }
-commonChars();
