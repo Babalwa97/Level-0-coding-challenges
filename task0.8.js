@@ -1,12 +1,12 @@
-var h = "minute";
-var i = "minutes";
-var j = "hour";
-var k = "hours";
-var a = 8761; // Number of choice
-var minutes = a % 60;
-var hours = Math.floor(a / 60);
-
-function numberToHours(a) {
+function numberToHours(number) {
+  var h = "minute";
+  var i = "minutes";
+  var j = "hour";
+  var k = "hours";
+  var number = 8761;
+  var minutes = number % 60;
+  var hours = Math.floor(number / 60);
+  
   if ((hours <= 1) & (minutes <= 0)) {
     return hours + j;
   } else if ((hours <= 0) & (minutes <= 1)) {
@@ -21,4 +21,3 @@ function numberToHours(a) {
     return hours + k + "," + " " + minutes + i;
   }
 }
-console.log(numberToHours());
