@@ -1,7 +1,8 @@
-var a = 11;
-var b = 22;
-var c = 6;
-function maximumNumber(a, b, c) {
+function maximumNumber(a, b, c) { 
+  var a = 11;
+  var b = 22;
+  var c = 6;
+  
   if ((a > b) & (a > c)) {
     return a;
   } else if ((b > c) & (b > a)) {
@@ -10,4 +11,3 @@ function maximumNumber(a, b, c) {
     return c;
   }
 }
-console.log(maximumNumber(a, b, c));
