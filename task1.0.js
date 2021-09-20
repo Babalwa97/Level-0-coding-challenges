@@ -1,20 +1,20 @@
-function commonChars(str1, str2) {
-  var str1 = "bottle";
-  var str2 = "chocolate";
+function commonChars(string1, string2) {
+  var string1 = "bottle";
+  var string2 = "chocolate";
   var common = "";
-  if (str1.length < str2.length) {
-    for (var i = 0; i < str1.length; i++) {
-      if (str2.includes(str1[i])) {
-        if (!common.includes(str1[i])) {
-          common += str1[i];
+  if (string1.length < string2.length) {
+    for (var i = 0; i < string1.length; i++) {
+      if (string2.includes(string1[i])) {
+        if (!common.includes(string1[i])) {
+          common += string1[i];
         }
       }
     }
   } else {
-    for (var n = 0; n < str2.length; n++) {
-      if (str1.includes(str2[i])) {
-        if (!common.includes(str2[i])) {
-          common += str2[i];
+    for (var n = 0; n < string2.length; n++) {
+      if (string1.includes(string2[i])) {
+        if (!common.includes(string2[i])) {
+          common += string2[i];
         }
       }
     }
