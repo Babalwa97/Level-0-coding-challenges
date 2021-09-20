@@ -5,6 +5,3 @@ function evenOrOdd(number) {
     return "Odd";
   }
 }
-
-console.log(evenOrOdd(11));
-console.log(evenOrOdd(18));
