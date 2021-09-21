@@ -1,8 +1,4 @@
-function maximumNumber(num1, num2, num3) { 
-  var num1 = 11;
-  var num2 = 22;
-  var num3 = 6;
-  
+function maximumNumber(num1, num2, num3) {   
   if ((num1 > num2) & (num1 > num3)) {
     return num1;
   } else if ((num2 > num3) & (num2 > num1)) {
