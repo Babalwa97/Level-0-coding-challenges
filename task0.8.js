@@ -3,7 +3,6 @@ function numberToHours(number) {
   var i = "minutes";
   var j = "hour";
   var k = "hours";
-  var number = 8761;
   var minutes = number % 60;
   var hours = Math.floor(number / 60);
   
