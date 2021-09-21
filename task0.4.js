@@ -1,7 +1,7 @@
 function evenOrOdd(number) {
   if (number % 2 === 0) {
-    return "even";
+    console.log("even");
   } else {
-    return "Odd";
+    console.log("Odd");
   }
 }
