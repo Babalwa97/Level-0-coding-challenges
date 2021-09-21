@@ -1,6 +1,4 @@
 function commonCharacters(string1, string2) {
-  var string1 = "bottle";
-  var string2 = "chocolate";
   var common = "";
   if (string1.length < string2.length) {
     for (var i = 0; i < string1.length; i++) {
